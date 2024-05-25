@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+ max-width: 100%;   
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+    background-color: #fafafc;;
+    height: 60px;
+    width: 1224px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.item a{
+    color: #06c ;
+    text-decoration: none;
+    
+
+}
+.iphone_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.left h1{
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+    padding-bottom: 8px;
+}
+.left p{
+    color: rgb(29, 29, 31);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    line-height: 1.42859;
+}
+.right p {
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    color: #1d1d1f;
+    display: flex;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    margin: 6px 0;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.img {
+    width: 1200px;
+    height: 700px;
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UW1GeTRObi9UaVF4S3FUNERNMWVhZ2FRQXQ2R0JQTk5udUZxTkR3ZVlpSmVJdk5rWHR5c3l5ME9ZNVV1Y1o0SjBoUVhuTWlrY2hIK090ZGZZbk9HeE1xUVVnSHY5eU9CcGxDMkFhalkvT0Q5QmVFZ0s0ZTVTcDJpVVJkaDNNVDdmbW94YnYxc1YvNXZ4emJGL0IxNFp3PT0=&traceId=1');
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease;
+    margin-left: 100px;
+    border-radius: 25px;
+    margin-top: 0;
+}
+
+nav.best {
+padding-right: 50px;
+cursor: pointer;
+margin-top: 300px;
+}
+.sale_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.sale_box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+.sale_box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+    background-color: #f5f5f7; 
+
+} 
+.sale_box3 h5{
+    
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.2857742857;
+}
+.sale_box h3 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+.sale_box2 h4 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+.best h2 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+    color : #86868b;
+    margin-left: 40px;
+}
+.best h6 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+    color : #86868b;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+p.colortxt{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.color2{
+height: 25px;
+width: 25px;
+border-radius: 100px ;
+background-color:Blue;
+}
+.color4{
+height: 25px;
+width: 25px;
+border-radius: 100px ;
+background-color:rgb(0, 0, 0);
+}
+.color{
+height: 25px;
+width: 25px;
+border-radius: 100px ;
+background-color:#fdc210bb;
+}
+.color3{
+height: 25px;
+width: 25px;
+border-radius: 100px ;
+background-color:rgb(245, 245, 245);
+}
+.colors_box{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.gb_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.gb_box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+.gb_box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+.gb_box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+.pro .img {
+   
+    position: sticky;
+    top: 0;  
+    z-index: 1; 
+  }
+  
+  .pro {
+  
+    position: relative; 
+  }
+
+
+  .trade_box{
+    align-items: center;
+    display: flex;
+    
+
+  }
+  
+.elemtrade {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+    color : #86868b;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.elem_trade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+padding-left: 50px;
+
+} 
+.elem2_trade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 1000px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+padding-left: 50px;
+background-color: #f5f5f7;
+
+} 

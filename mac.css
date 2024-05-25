@@ -1,0 +1,123 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+.img {
+    max-width: 100%;
+}
+.container{
+width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+ font-family: "Roboto", sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+text-align: center;
+
+} 
+ .pro {
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 500;
+text-align: center;
+margin-top: 30px;
+
+} 
+.mac_box {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+gap: 60px; 
+}
+.img{
+    width: 312px;
+    height: 289.91px;
+background-image: url(https://s3-alpha-sig.figma.com/img/9f71/2fbe/77eca8b2420bb1d5e95728168d6e6c92?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZdUsEBFHPYlQxiFII9dxAHcI4nBxWgrzJW1D6Z3BaWCw3Hx3MbD11YA1ol-hkSHYsM5x8OEJmZTZgTzUUuyyYsrgpxUTsxy37MSfJIYK2Gxsbh4G1dQYdVHgZHKoPkeJueAJun5-Gsmha3OcSn2vlI3N9HCs~GJBAcT2bKkhpiXu8u0GywGcqsbwoyu1xAPRvF65DmBYJtRSnKKJR66Cf9UoOXU~z3ur76-ZF3ICrcCNRGca2FKyTUthTpn1unRVar2js6LU4wz5Z0EPTn8tnCZxWc1NwyjmcwFa3PtNHM-DZrp-UA5CrY59JJYbADjhVjuYdL4s8o17IOQTNYUeog__);
+background-size: cover;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+text-align: center;
+
+}
+h3 {
+    font-family: Gilroy;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.71px;
+text-align: left;
+color: #0071E3;
+
+}
+.sale p {
+    font-family:"Roboto", sans-serif ;
+font-size: 48px;
+font-weight: 700;
+line-height: 59.42px;
+text-align: left;
+padding-top: 50px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.white {
+    width: 155px;
+height: 42px;
+top: 653px;
+left: 703px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+border: 0;
+cursor: pointer;
+background-color: #0071E3;
+color: white;
+
+}
+.graybtn  {
+    width: 155px;
+height: 42px;
+top: 653px;
+left: 703px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+border: 0;
+cursor: pointer;
+background: #CFE7FF;
+color:  #797979;
+
+
+}
+.icon{ 
+
+    height: 50px;
+    width:50px;
+    margin-left: 200px;
+}
+.newbluebtn{
+    width: 155px;
+    height: 42px;
+    top: 653px;
+    left: 703px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: 0;
+    cursor: pointer;
+    background-color: #0071E3;
+    color: white;
+    
+}
